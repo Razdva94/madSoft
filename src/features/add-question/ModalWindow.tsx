@@ -37,14 +37,6 @@ const ModalWindow: React.FC<ModalWindowInterface> = ({
 	};
 
 	const handleSubmit = () => {
-		// console.log('Question:', data.question);
-		// console.log('Type:', data.type);
-		// if (variants) {
-		// 	console.log('Variant 1:', data.options[0]);
-		// 	console.log('Variant 2:', data.options[1]);
-		// 	console.log('Variant 3:', data.options[2]);
-		// 	console.log('Variant 4:', data.options[3]);
-		// }
 		addQuestion();
 		setData({
 			question: '',

@@ -10,6 +10,7 @@ const MultiOptionQuiz: React.FC<optionsQuizInterface> = ({
 	countQuestion,
 }) => {
 	const initialQuestions = questions[countQuestion].options;
+	console.log(initialQuestions);
 	const [checkedState, setCheckedState] = useState(
 		initialQuestions?.map(() => false),
 	);
