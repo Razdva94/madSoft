@@ -53,9 +53,9 @@ const ModalWindow: React.FC<ModalWindowInterface> = ({
 			case 'multi':
 				return multi;
 			case 'long':
-				return short;
-			case 'short':
 				return long;
+			case 'short':
+				return short;
 			default:
 				return null;
 		}
